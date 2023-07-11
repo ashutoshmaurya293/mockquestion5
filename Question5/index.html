@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="florinpop17" id="username" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="a@florin-pop.com" id="email" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password"/>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password check</label>
+			<input type="password" placeholder="Password two" id="password2"/>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="phone number">phone number</label>
+			<input type="number" placeholder="phone number" />
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+            <label for="age">age</label>
+            <input type="number" placeholder="inter your age">
+            <div class="form-control">
+                <label for="gender">Gender</label>
+                  <select id="gender">
+                    <option value="">Select an option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+            </div>
+            <div class="form-control">
+                <label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+            </div>
+        </div>
+		<button>Submit</button>
+	</form>
+</div>
+
+
+<script src="./server.js"></script>
+  
+</body>
+</html>
